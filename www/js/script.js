@@ -1,10 +1,7 @@
 function init() {
-	document.addEventListener("deviceready",onDeviceReady, false);
+	document.addEventListener("deviceready",checkConnection, false);
 }
 
-function onDeviceReady() {
-	navigator.notification.beep(1);
-}
 
 
 function checkConnection() {
